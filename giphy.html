@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<title>Sports Gifs</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+  <div id="mainContainer" class="container-fluid">
+    <div class="row">
+    <div class="col-12 p-2 text-center bg-dark header">
+        <h1 class="text-light">Sports Gifs!</h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+     <div id="divButtons" class="col-11"></div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-11 text-center">
+        <form id="sportForm">
+          <input type="text" id="sportInput" placeholder="Enter A Sport" size="50vw" class="text-center">
+          <!-- Button triggers add -->
+          <input id="btnAddInput" type="submit" value="Submit" class="btn btn-success">
+        </form>
+      </div>
+    </div>
+
+    <!-- Inputs go here -->
+    <div class="row justify-content-center">
+    <div class="col-11">
+        <div id="divGifs" class="row justify-content-center">
+      </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/code.js"></script>
+  </div>
+</body>
+
+</html>

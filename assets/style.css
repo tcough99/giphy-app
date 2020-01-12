@@ -1,0 +1,20 @@
+
+.row {
+  margin:10px 0px 10px 0px;
+}
+
+.btn-primary {
+  margin:10px;
+}
+
+.card-img-top {
+  height:75%;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card-title, .card-text {
+  font-size:1vw;
+}
